@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
+import { defineConfig } from 'vite'
+import react from '@vitejs/react-plugin'
+
 export default defineConfig({
-  base: "/shoppingreact",
+  base: "/learning_react", // Replace with your actual repo name!
   plugins: [react()],
 })
