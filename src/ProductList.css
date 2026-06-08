@@ -41,11 +41,11 @@ body {
 
 /* Product Grid */
 .product-grid {
-    display:flex;
-    flex-direction: column;
-    width: 100vw;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap; 
     justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 .product-list {
     display: flex;
@@ -59,19 +59,19 @@ body {
     justify-content: center;
 }
 
-/* Product Card */
 .product-card {
     flex: 0 0 calc(33.33% - 20px); /* Adjust width for 3 cards per row with 20px gap */
     max-width: calc(26.33% - 20px); /* Adjust max-width for 3 cards per row with 20px gap */
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 15px;
     background-color: #fff;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 8px;
     text-align: center;
     position: relative;
-    
+    width: 300px;
     gap: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 /* Pseudo-classes - Hover effect on product button */
